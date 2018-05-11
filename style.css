@@ -1,0 +1,51 @@
+Body{
+    font-family: 'Arial','Helvetica Neue',Helvetica, sans-serif;
+    color: #777777;
+    background:#777777;
+    width: 960px;
+    font-size: 18px;   
+    justify-content:center;
+}
+
+Header, Nav, Section, Aside, Footer{
+    background:#ebebeb;
+    padding:20px;
+    text-align: center;
+    }
+Article{
+    color:#ebebeb;
+    background:#777777;
+    padding:20px;
+}
+h1,p{
+    color:#777777;
+    background:#ebebeb;
+}
+.container{
+    display:flex;
+    justify-content:space-around;
+}
+Section, Aside{
+    flex:1;
+    padding:20px;
+}
+Section + Aside{
+    margin-left:20px;
+}
+.margin + .margin{
+    margin-top:20px;
+}
+a{
+    background: #777;
+   padding:4px;
+   color:white;
+}
+.CN{
+    margin:0px;
+}
+h2{
+    margin-bottom: 0px;
+}
+.link{
+    justify-content:space-around;
+}
